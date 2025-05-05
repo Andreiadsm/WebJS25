@@ -19,10 +19,12 @@ console.log(facialHair)
 // alert ("Olá" +" "+firstName +" " +lastName) // ou sintaxe simplificada (`Olá ${firstName}${lastName})
 
 //ex pp 38
-// let weekDay = promp("Hoje que dia da semana é?")
-// if (weekday.toLowerCase = "Sexta") {
-//     alert("yay,sobrevivemos a mais uma semana")
-// } else {"keep going, já faltou mais para o fim de semana"};
+// let weekDay = prompt("Hoje que dia da semana é?");
+// if (weekDay && weekDay.toLowerCase () == "sexta") {
+//     alert("yay,sobrevivemos a mais uma semana");
+// } else {
+//     alert("keep going, já faltou mais para o fim de semana");
+// }
 
 //ex2 pp38
 
@@ -30,23 +32,25 @@ let password = prompt("Indique a sua password")
 console.log(password)
 if (password.length > 5){
     alert ("acesso permitido");
-} else {"Insira 6 caracteres"};
+} else {
+    alert("Insira 6 caracteres");
+}
 
 
 //ex3 pp 38
 let weekDay = prompt("Hoje que dia da semana é?")
 switch (weekDay) {
     case "Segunda":
-        alert ("Segunda");
+        alert ("ânimo, já faltou mais para o fim de semana!");
         break;
     case "Terça":
-        alert("Terça");
+        alert("ânimo, já faltou mais para o fim de semana!");
         break;
     case "Quarta":
-        alert("Quarta");
+        alert("ânimo, já faltou mais para o fim de semana!");
         break;
     case "Quinta":
-        alert ("Quinta");
+        alert ("ânimo, já faltou mais para o fim de semana!");
         break;
     case "Sexta":
         alert ("Yay sobrevivemos a mais uma semana");
