@@ -74,7 +74,7 @@ function modelObj()
 function myshoppingList(){
 
 let shoppingList = []; // Lista de compras
-let item = pronto("adicione o item"); 
+let item = prompt("adicione o item"); 
 while (item.toLowerCase().trim() !== "fim") {
     shoppingList.push(item);
     item = prompt("Adicione outro item à sua lista:");

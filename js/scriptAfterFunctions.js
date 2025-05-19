@@ -9,3 +9,10 @@ function helloPerson(){
 function hello(greetScope){
     alert("olá " +greetScope)
 }
+
+//aqui criamos uma função e chamamos a função de cima (for) no "rant (hate)"
+function tellMeWhatYouHate(){
+    let hate = prompt("diz-me o que odeias")
+    rant(hate)
+}
+
