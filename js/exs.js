@@ -164,14 +164,17 @@
 // airplaneSeats[3][1] = "Andreia"
 // console.log(airplaneSeats)
 
-let product ={
-    name: "Meias",
-    inStock: "true",
-    Price: 1.99,
-    Colours: ["Red", "Blue", "Green"]
-}
-console.log(product.Price)
-console.log(product.Colours[2])
+//pp 50
 
-product.Price = "2.55"
-console.log(product)
+// let product ={
+//     name: "Meias",
+//     inStock: true,
+//     Price: 1.99,
+//     Moeda: "€",
+//     Colours: ["Red", "Blue", "Green"]
+// }
+// console.log(product.Price)
+// console.log(product.Colours[2])
+
+// product.Price = "2.55"
+// console.log("o produto custa" +product.price + product.moeda +" e a cor é" + product.colours[2])
