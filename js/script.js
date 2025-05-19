@@ -41,6 +41,27 @@ let shoppingList = ["batatas", "feijão"];
 //     console.log("compra" + shoppingList[i]);
 // }
 //podemos usar o método acima similar a java mas devemos simplificar e em javascript usar a variável declarada( aqui item). Para cada elemtno do array imprime elemento.
-for (let item of shoppingList){
-    console.log(item)
-}
+// for (let item of shoppingList){
+//     console.log(item)
+// }
+
+//Nested Arrays ou arrays tridimensionais
+
+// let modules = [
+//     ["arrays", "funções",]
+//          "js",
+//          "programacao de servidor";]
+// console.log(modules[0][1][2][1])
+
+// let courseStructure ={
+//     courseName : "Software Developer",
+//     hours: 1000,
+//     modules: ["js", "algoritmia", "mysql"]
+// }
+
+// console.log(courseStructure.courseName) ou se quiser aceder a modules coloco:
+// console.log(courseStructure.modules[1])
+//primeira maneira de organizar dados: variáveis, depois arrays e ainda objetos.
+// para reassignar um valor:
+// courseStructure.courseName = "AWS";
+

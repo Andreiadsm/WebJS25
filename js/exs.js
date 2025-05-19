@@ -1,17 +1,17 @@
-let myLuckyNumber = 7;
-let myName = "Andreia";
-console.log("O meu nome é "+ myName +" o meu número preferido é "+ myLuckyNumber);
+// let myLuckyNumber = 7;
+// let myName = "Andreia";
+// console.log("O meu nome é "+ myName +" o meu número preferido é "+ myLuckyNumber);
 
-//ex pp28
-const MESSAGE = " TASTE THE RAINBOW! "
-console.log(MESSAGE)
-let whisper = MESSAGE.toLowerCase().trim();
-console.log(whisper)
+// //ex pp28
+// const MESSAGE = " TASTE THE RAINBOW! "
+// console.log(MESSAGE)
+// let whisper = MESSAGE.toLowerCase().trim();
+// console.log(whisper)
 
-//ex pp30
-const WORD = "skateboard";
-let facialHair = WORD.slice(5).replace("o", "e")
-console.log(facialHair)
+// //ex pp30
+// const WORD = "skateboard";
+// let facialHair = WORD.slice(5).replace("o", "e")
+// console.log(facialHair)
 
 // //ex pp 35
 // let firstName = prompt("qual o seu primeiro nome?") 
@@ -90,10 +90,10 @@ console.log(facialHair)
 // }
 
 //ex pag 58
-const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
-for (let i=0; i < people.length; i++){
-    console.log(people[i].toUpperCase());
-}
+// const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+// for (let i=0; i < people.length; i++){
+//     console.log(people[i].toUpperCase());
+// }
 
 //ex pag 62
 
@@ -118,27 +118,60 @@ for (let i=0; i < people.length; i++){
 //     console.log("- " + produto);
 // }
 
-//ou
+//Correção Sara
 
-let shoppingList = [];
-let item="";
+// let shoppingList = []; // Lista de compras
+// let item = pronto("adicione o item"); 
+// while (item.toLowerCase().trim() !== "fim") {
+    // shoppingList.push(item);
+    // item = prompt("Adicione outro item à sua lista:");
+// }
+// for (let item of shoppingList){
+//     console.log("comprar " item)
+// }
 
-while (item !== "código") {
-    item = prompt("Adicione um item à sua lista (ou digite 'código' para finalizar):");
 
-    if (item !== "código") {
-        shoppingList.push(item);
-    } else{console.log("A sua lista de compras:");
-    }
+// let shoppingList = [];
+// let item="";
+
+// while (item !== "código") {
+//     item = prompt("Adicione um item à sua lista (ou digite 'código' para finalizar):");
+
+//     if (item !== "código") {
+//         shoppingList.push(item);
+//     } else{console.log("A sua lista de compras:");
+//     }
+// }
+
+// for (let item of shoppingList){
+//     console.log("comprar " item)
+// }
+
+// if (item !== "fim") {
+//     item= prompt("Digite 'fim' para terminar):");
+// }
+// else (item === "fim") {
+//     console.log(shoppingList.trim)};
+
+// const airplaneSeats = [
+// ['Ruth', 'Anthony', 'Stevie'],
+// ['Amelia', 'Pedro', 'Maya'],
+// ['Xavier', 'Ananya', 'Luis'],
+// ['Luke', null, 'Deniz'],
+// ['Rin', 'Sakura', 'Francisco']
+// ];
+
+// airplaneSeats[3][1] = "Andreia"
+// console.log(airplaneSeats)
+
+let product ={
+    name: "Meias",
+    inStock: "true",
+    Price: 1.99,
+    Colours: ["Red", "Blue", "Green"]
 }
+console.log(product.Price)
+console.log(product.Colours[2])
 
-for (let item of shoppingList){
-    console.log(item)
-}
-
-if (item !== "fim") {
-    item= prompt("Digite 'fim' para terminar):");
-}
-else (item === "fim") {
-    console.log(shoppingList.trim)}
-
+product.Price = "2.55"
+console.log(product)
