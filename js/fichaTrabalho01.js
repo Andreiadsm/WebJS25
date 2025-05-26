@@ -17,7 +17,7 @@ console.log("Multiplicação de " + n1 + " por " + n2 + ": " + multiply(n1, n2))
 
 
 // Ex02
-// Função isShortsWeather que aceite um argumento temperatura
+// Função isShortsWeather que aceita um argumento temperatura
 // Se a temperatura for maior que 25, retorna verdadeiro. Se não, retorna falso.
 function isShortsWeather (temp){
     if (temp > 25) {
@@ -35,7 +35,7 @@ let tempBaixa = 20;
 console.log("Com " + tempBaixa + " graus, dá para usar calções? " + isShortsWeather(tempBaixa));
 
 // Ex03
-// Função chamada lastElement que aceita um array e retorna o último elemento do array (sem o remover).
+// Função chamada lastElement que aceita um array e retorna o último elemento do array - sem o remover.
 // Se o array for vazio, deve retornar null.
 function lastElement(array){
     if (array.length === 0) {
@@ -75,7 +75,7 @@ console.log("Soma de [2,2,2,2]: " + sumArray(myArray2));
 
 // Ex05
 // Função chamada returnDay que aceita um parâmetro de 1 a 7 e devolve o dia correspondente.
-// Outro numero qualquer a função deve retornar null.
+// Outro numero a função retorna null.
 function returnDay(numDia) {
 
     switch (numDia) {
