@@ -36,19 +36,20 @@ function  isShortsWeather (temperature){
     }
 }
 
-//FichaPrática1 ex03
-Function lastElement(){
+//ficha pratica ex03
 
-let lastElement = []; // array
-let lastElement = []; 
-while (item.toLowerCase().trim() !== "fim") {
-    shoppingList.push(item);
-    item = prompt("Adicione outro item à sua lista:");
-}
-for (let item of shoppingList){
-    console.log("comprar " item)
-}
-}
+function myShoppingList() {
+    let shoppingList = [];
+    let item = prompt("Adicione um item à sua lista (escreva 'fim' para terminar):");
 
+    while (item.toLowerCase().trim() !== "fim") {
+        shoppingList.push(item);
+        item = prompt("Adicione outro item à sua lista (ou 'fim' para terminar):");
+    }
+
+    for (let item of shoppingList) {
+        console.log("comprar " + item);
+    }
+}
 //para chamar a função a seguir
-myshoppingList()
+myshoppingList();
