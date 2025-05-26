@@ -98,3 +98,15 @@ fullNames.forEach(function(item){
 
 lastNames()
 
+//pp88 ex01 - sintaxe muito mais limpa
+// function greet(name){
+//     console.log ('hey ' +name);
+// }
+// const greet = (name)=>{
+//     return 'hey '+name
+// }
+
+const greet = name =>'hey '+name;
+
+
+

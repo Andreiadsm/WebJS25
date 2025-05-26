@@ -35,7 +35,7 @@ function sum(x, y) {
 }
 
 // Alternativa com função anónima atribuída a uma constante
-const sumAlt = function(x, y) {
+const sum = function(x, y) {
     let total = x + y;
     return total;
 }
@@ -43,4 +43,10 @@ const sumAlt = function(x, y) {
 // Exemplo de uso da função 'sum'
 let total2 = sum(4, 6);
 console.log(total2);
+
+// Alternativa com arrow function
+const sum = (x, y) =>{
+    let total = x + y;
+    return total;
+}
 
