@@ -176,5 +176,5 @@
 // console.log(product.Price)
 // console.log(product.Colours[2])
 
-// product.Price = "2.55"
+// product.Price = "2.55" //chamamos o nome do objecto.key (neste caso product.Price)
 // console.log("o produto custa" +product.price + product.moeda +" e a cor é" + product.colours[2])

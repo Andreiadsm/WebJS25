@@ -45,23 +45,23 @@
 //     console.log(item)
 // }
 
-Nested Arrays ou arrays tridimensionais
+//Nested Arrays ou arrays tridimensionais
 
-function modelObj(){
-let modules = [
-    ["arrays", "funções",]
-         "js",
-         "programacao de servidor";]
-console.log(modules[0][1][2][1])
+// function modelObj(){
+// let modules = [
+//     ["arrays", "funções",];
+//          "js",
+//          "programacao de servidor";]
+// console.log(modules[0][1][2][1])
 
-let courseStructure ={
-    courseName : "Software Developer",
-    hours: 1000,
-    modules: ["js", "algoritmia", "mysql"]
-}
-}
+// let courseStructure ={
+//     courseName : "Software Developer",
+//     hours: 1000,
+//     modules: ["js", "algoritmia", "mysql"]
+// }
+// }
 
-function modelObj()
+// function modelObj()
 
 // console.log(courseStructure.courseName) ou se quiser aceder a modules coloco:
 // console.log(courseStructure.modules[1])
@@ -71,19 +71,19 @@ function modelObj()
 
 //funções
 
-function myshoppingList(){
+// function myshoppingList(){
 
-let shoppingList = []; // Lista de compras
-let item = prompt("adicione o item"); 
-while (item.toLowerCase().trim() !== "fim") {
-    shoppingList.push(item);
-    item = prompt("Adicione outro item à sua lista:");
-}
-for (let item of shoppingList){
-    console.log("comprar " item)
-}
-}
+// let shoppingList = []; // Lista de compras
+// let item = prompt("adicione o item"); 
+// while (item.toLowerCase().trim() !== "fim") {
+//     shoppingList.push(item);
+//     item = prompt("Adicione outro item à sua lista:");
+// }
+// for (let item of shoppingList){
+//     console.log("comprar " item)
+// }
+// }
 
-//para chamar a função a seguir
-myshoppingList()
+// //para chamar a função a seguir
+// myshoppingList()
 
